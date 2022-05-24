@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="device/xiaomi/mido" name="device_mido" remote="Silentshot7" revision="master" />
+ <project path="vendor/xiaomi/mido" name="vendor_mido" remote="Silentshot7 revision="master" />
+ <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Silentshot7" revision="master" />
+ 
+</manifest>

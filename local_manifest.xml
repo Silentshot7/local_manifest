@@ -6,7 +6,7 @@
  
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="los_device_xiaomi_mido" remote="Silentshot7" revision="lineage-19.1" />
- <project path="vendor/xiaomi/mido" name="zeelog_vendor_xiaomi_mido" remote="Silentshot7 revision="lineage-19.1" />
+ <project path="vendor/xiaomi" name="zeelog_vendor_xiaomi_mido" remote="Silentshot7 revision="lineage-19.1" />
  <project path="kernel/xiaomi/mido" name="hyperkernel_xiaomi_mido" remote="Silentshot7" revision="twelve" />
 
  

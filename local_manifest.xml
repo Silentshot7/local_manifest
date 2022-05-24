@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <!-- remote -->
+ <remote name="Silentshot7" fetch="https://github.com/Silentshot7/" />
+ 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_mido" remote="Silentshot7" revision="master" />
  <project path="vendor/xiaomi/mido" name="zeelog_vendor_xiaomi_mido" remote="Silentshot7 revision="lineage-19.1" />

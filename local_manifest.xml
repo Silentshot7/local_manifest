@@ -7,7 +7,7 @@
  
   <!-- Trees -->
   <project path="device/xiaomi/mido" name="device_mido" remote="Silentshot7" revision="corvus" />
-  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="Silentshot7" revision="twelve" />
+  <project path="vendor/xiaomi/mido" name="vendor_corvus" remote="Silentshot7" revision="12-test" />
   <project path="kernel/xiaomi/mido" name="hyperkernel_xiaomi_mido" remote="Silentshot7" revision="twelve" />
                                                                                                          
   <!-- Proton -->

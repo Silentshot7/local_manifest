@@ -4,6 +4,8 @@
   <!-- remote -->
   <remote name="Silentshot7" fetch="https://github.com/Silentshot7/" />
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+  <!-- project -->
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.1" />
  
   <!-- Trees -->
   <project path="device/xiaomi/mido" name="corvus_device_mido" remote="Silentshot7" revision="corvus" />

@@ -6,7 +6,7 @@
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
   
   <!-- Trees -->
-  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Silentshot7" revision="crDroid" />
+  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Silentshot7" revision="posp" />
   <project path="vendor/xiaomi" name="zeelog_vendor_xiaomi_mido" remote="Silentshot7" revision="lineage-19.1" />
   <project path="kernel/xiaomi/mido" name="fussion_kernel_mido" remote="Silentshot7" revision="normal" />
 

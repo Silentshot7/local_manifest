@@ -6,7 +6,7 @@
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  
   <!-- Trees -->
-  <project path="device/xiaomi/mido" name="device_xiaomi/mido" remote="Silentshot7" revision="riceDroid" />
+  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Silentshot7" revision="riceDroid" />
   <project path="vendor/xiaomi" name="zeelog_vendor_xiaomi_mido" remote="Silentshot7" revision="lineage-19.1" />
   <project path="kernel/xiaomi/mido" name="zeelog_kernel_xiaomi_mido" remote="Silentshot7" revision="lineage-19.1" />
                                                                                                          

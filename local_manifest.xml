@@ -4,16 +4,19 @@
   <!-- remote -->
   <remote name="Silentshot7" fetch="https://github.com/Silentshot7/" />
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- 
-  <!-- project -->
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.1" />
- 
+  <remote name="onkarsinghsahil" fetch="https://github.com/onkarsinghsahil"/>
+
   <!-- Trees -->
-  <project path="device/xiaomi/mido" name="corvus_device_mido" remote="Silentshot7" revision="corvus" />
-  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="Silentshot7" revision="twelve" />
-  <project path="kernel/xiaomi/mido" name="hyperkernel_xiaomi_mido" remote="Silentshot7" revision="twelve" />
-                                                                                                         
+  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Silentshot7" revision="voidui" />
+  <project path="vendor/xiaomi" name="zeelog_vendor_xiaomi_mido" remote="Silentshot7" revision="lineage-19.1" />
+  <project path="kernel/xiaomi/mido" name="zeelog_kernel_xiaomi_mido" remote="Silentshot7" revision="lineage-19.1" />
+
+  <!-- Remove -->
+  <remove-project name="hardware_qcom-caf_msm8996_audio" />
+
+  <!-- HAL's -->
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="onkarsinghsahil" revision="twelve" />
+
   <!-- Proton -->
   <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
 </manifest>

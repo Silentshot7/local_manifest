@@ -4,18 +4,11 @@
   <!-- remote -->
   <remote name="Silentshot7" fetch="https://github.com/Silentshot7/" />
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-  <remote name="onkarsinghsahil" fetch="https://github.com/onkarsinghsahil"/>
 
   <!-- Trees -->
-  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Silentshot7" revision="voidui" />
+  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Silentshot7" revision="havoc" />
   <project path="vendor/xiaomi" name="zeelog_vendor_xiaomi_mido" remote="Silentshot7" revision="lineage-19.1" />
   <project path="kernel/xiaomi/mido" name="zeelog_kernel_xiaomi_mido" remote="Silentshot7" revision="lineage-19.1" />
-
-  <!-- Remove -->
-  <remove-project name="hardware_qcom-caf_msm8996_audio" />
-
-  <!-- HAL's -->
-  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="onkarsinghsahil" revision="twelve" />
 
   <!-- Proton -->
   <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />

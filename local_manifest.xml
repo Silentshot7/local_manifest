@@ -7,7 +7,7 @@
  
   <!-- Trees -->
   <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Silentshot7" revision="crDroid" />
-  <project path="vendor/xiaomi" name="zeelog_vendor_xiaomi_mido" remote="Silentshot7" revision="lineage-19.1" />
+  <project path="vendor/xiaomi" name="zeelog_vendor_xiaomi_mido" remote="Silentshot7" revision="aosp12" />
   <project path="kernel/xiaomi/mido" name="zeelog_kernel_xiaomi_mido" remote="Silentshot7" revision="lineage-19.1" />
                                                                                                          
   <!-- Proton -->

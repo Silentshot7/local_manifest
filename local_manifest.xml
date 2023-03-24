@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ <!--Remote-->
+ <remote name="Silentshot7" fetch="https://github.com/Silentshot7" />
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
+ <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+ <remote name="clang" fetch="https://gitlab.com/Amritorock" />
+ <remote name="kami" fetch="https://github.com/kamikaonashi" />
+ 
+ <!--packages_modules_Bluetooth-->
+ <!--<remove-project name="packages_modules_Bluetooth" />
+ <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="NRanjan-17" revision="thirteen" />-->
 
-  <!-- remote -->
-  <remote name="Silentshot7" fetch="https://github.com/Silentshot7/" />
-  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-  <remote name="onkarsinghsahil" fetch="https://github.com/onkarsinghsahil"/>
+ <!--Trees-->
+ <project path="device/xiaomi/mido" name="xiaomi_mido" remote="Silentshot7" revision="voidui" />
+ <project path="vendor/xiaomi/mido" name="hyper_vendor_xiaomi_mido" remote="Silentshot7" revision="thirteen" />
+ <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="kami" revision="DarkMoonUV" />
 
-  <!-- Trees -->
-  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Silentshot7" revision="voidui" />
-  <project path="vendor/xiaomi" name="zeelog_vendor_xiaomi_mido" remote="Silentshot7" revision="lineage-19.1" />
-  <project path="kernel/xiaomi/mido" name="zeelog_kernel_xiaomi_mido" remote="Silentshot7" revision="lineage-19.1" />
-
-  <!-- Remove -->
-  <remove-project name="hardware_qcom-caf_msm8996_audio" />
-
-  <!-- HAL's -->
-  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="onkarsinghsahil" revision="twelve" />
-
-  <!-- Proton -->
-  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
+ <!-- Proton -->
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>

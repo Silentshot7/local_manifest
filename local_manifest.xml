@@ -13,7 +13,7 @@
  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="NRanjan-17" revision="thirteen" />-->
 
  <!--Trees-->
- <project path="device/xiaomi/mido" name="xiaomi_mido" remote="Silentshot7" revision="spark" />
+ <project path="device/xiaomi/mido" name="xiaomi_mido" remote="Silentshot7" revision="nitrogen" />
  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="Silentshot7" revision="common" />
  <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="kami" revision="DarkMoonUV" />
 
